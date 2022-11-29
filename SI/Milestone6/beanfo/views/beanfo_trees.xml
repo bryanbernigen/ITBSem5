@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+  <record model="ir.ui.view" id="beanfo_customer_tree">
+    <field name="name">beanfo.customer.tree</field>
+    <field name="model">beanfo.customer</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="nama"/>
+        <field name="email"/>
+        <field name="nomor_telpon"/>
+        <field name="jumlah_point"/>
+        <field name="boleh_dikontak"/>
+      </tree>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="beanfo_promotion_tree">
+    <field name="name">beanfo.promotion.tree</field>
+    <field name="model">beanfo.promotion</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="nama_promo"/>
+        <field name="kode_promo"/>
+        <field name="tanggal_mulai"/>
+        <field name="tanggal_selesai"/>
+        <field name="kuota"/>
+        <field name="deskripsi"/>
+      </tree>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="beanfo_personal_promo_tree">
+    <field name="name">beanfo.personal_promo.tree</field>
+    <field name="model">beanfo.personal_promo</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="nama_promo"/>
+        <field name="kode_promo"/>
+        <field name="nama_pelanggan"/>
+        <field name="terpakai_sebelumnya"/>
+        <field name="jumlah_point"/>
+        <field name="deskripsi"/>
+      </tree>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="beanfo_transaction_tree">
+    <field name="name">beanfo.transaction.tree</field>
+    <field name="model">beanfo.transaction</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="nama_pelanggan"/>
+        <field name="tanggal"/>
+        <field name="total"/>
+        <field name="poin"/>
+        <field name="id_promo_umum"/>
+        <field name="id_promo_khusus"/>
+      </tree>
+    </field>
+  </record>  
+</odoo>

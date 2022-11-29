@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_list_customer" model="ir.actions.act_window">
+        <field name="name">Daftar Pelanggan</field>
+        <field name="res_model">beanfo.customer</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_list_promotion" model="ir.actions.act_window">
+        <field name="name">Daftar Promosi</field>
+        <field name="res_model">beanfo.promotion</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_list_personal_promo" model="ir.actions.act_window">
+        <field name="name">Daftar Promosi Khusus</field>
+        <field name="res_model">beanfo.personal_promo</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_list_transaction" model="ir.actions.act_window">
+        <field name="name">Daftar Transaksi</field>
+        <field name="res_model">beanfo.transaction</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    
+    <menuitem id="beanfo_root_menu" 
+        name="Beanfo"
+        sequence="1"/>
+
+    <menuitem id="beanfo_customer_menu" 
+        name="Daftar Pelanggan"
+        parent="beanfo_root_menu"
+        action="action_list_customer"
+        sequence="1"/>
+
+    <menuitem id="beanfo_promotion_menu" 
+        name="Daftar Promosi"
+        parent="beanfo_root_menu"
+        action="action_list_promotion"
+        sequence="2"/>
+
+    <menuitem id="beanfo_personal_promo_menu" 
+        name="Daftar Promosi Khusus"
+        parent="beanfo_root_menu"
+        action="action_list_personal_promo"
+        sequence="3"/>
+
+    <menuitem id="beanfo_transaction_menu" 
+        name="Daftar Transaksi"
+        parent="beanfo_root_menu"
+        action="action_list_transaction"
+        sequence="4"/>
+</odoo>

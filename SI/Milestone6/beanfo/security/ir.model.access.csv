@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+customer_manager,Customer Manager,model_beanfo_customer,,1,1,1,1
+promotion_manager,Promotion Manager,model_beanfo_promotion,,1,1,1,1
+personal_promo_manager,Personal Promotion Manager,model_beanfo_personal_promo,,1,1,1,1
+transaction_manager,Transaction Manager,model_beanfo_transaction,,1,1,1,1
