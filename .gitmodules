@@ -1,3 +1,6 @@
 [submodule "AI/Tubes1/Dots-and-Boxes"]
 	path = AI/Tubes1/Dots-and-Boxes
 	url = https://github.com/bryanbernigen/Dots-and-Boxes
+[submodule "Jarkom/Tubes2/jarkom-jarkong"]
+	path = Jarkom/Tubes2/jarkom-jarkong
+	url = https://github.com/Sister19/jarkom-jarkong
