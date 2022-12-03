@@ -4,3 +4,18 @@
 [submodule "Jarkom/Tubes2/jarkom-jarkong"]
 	path = Jarkom/Tubes2/jarkom-jarkong
 	url = https://github.com/Sister19/jarkom-jarkong
+[submodule "WBD/Tubes1/if-3110-2022-k-01-01-32"]
+	path = WBD/Tubes1/if-3110-2022-k-01-01-32
+	url = https://gitlab.informatika.org/if3110-2022-k01-01-32/if-3110-2022-k-01-01-32
+[submodule "WBD/Tubes2/ngnotify-app"]
+	path = WBD/Tubes2/ngnotify-app
+	url = https://gitlab.informatika.org/if3110-2022-k01-02-32/ngnotify-app
+[submodule "WBD/Tubes2/ngnotify-premium-app"]
+	path = WBD/Tubes2/ngnotify-premium-app
+	url = https://gitlab.informatika.org/if3110-2022-k01-02-32/ngnotify-premium-app
+[submodule "WBD/Tubes2/ngnotify-rest-service"]
+	path = WBD/Tubes2/ngnotify-rest-service
+	url = https://gitlab.informatika.org/if3110-2022-k01-02-32/ngnotify-rest-service
+[submodule "WBD/Tubes2/ngnotify-soap-service"]
+	path = WBD/Tubes2/ngnotify-soap-service
+	url = https://gitlab.informatika.org/if3110-2022-k01-02-32/ngnotify-soap-service

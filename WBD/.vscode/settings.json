@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Tubes2/ngnotify-soap-service/src/helloservlet/WEB-INF/lib/javax.jws-3.1.2.jar",
+        "Tubes2/ngnotify-soap-service/src/helloservlet/WEB-INF/lib/javax.servlet-3.1.jar",
+        "Tubes2/ngnotify-soap-service/src/helloservlet/WEB-INF/lib/mysql-connector-java-8.0.29.jar"
+    ],
+    "java.project.sourcePaths": [
+        "Tubes2/ngnotify-soap-service/src/helloservlet/WEB-INF/src",
+        "Tubes2/ngnotify-soap-service/src/main/java/ngnotify"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
