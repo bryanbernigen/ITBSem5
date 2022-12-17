@@ -19,3 +19,6 @@
 [submodule "WBD/Tubes2/ngnotify-soap-service"]
 	path = WBD/Tubes2/ngnotify-soap-service
 	url = https://gitlab.informatika.org/if3110-2022-k01-02-32/ngnotify-soap-service
+[submodule "MBD/Tubes2/ConcurrencyControl"]
+	path = MBD/Tubes2/ConcurrencyControl
+	url = https://github.com/bryanbernigen/ConcurrencyControl

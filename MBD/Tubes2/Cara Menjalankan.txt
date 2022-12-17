@@ -1,0 +1,9 @@
+In a nutshell:
+masukkan "make run" di terminal yang ada make
+
+In panjang:
+1. Jika di Linux
+2. Buka terminal dan masukkan "make run"
+3. Jika di Windows
+4. Install make atau gunakan terminal WSL/VM
+5. masukkan "make run" di terminal WSL/VM
